@@ -1,7 +1,7 @@
 
 function factorial(number) {
     if (number < 0) {
-        throw 'Input to factorial() must be non-negative';
+        throw 'Input to factorial(n) must be non-negative';
     }
 
     return (number === 0 || number === 1) ? 1 : number * factorial(number - 1);
